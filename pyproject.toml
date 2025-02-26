@@ -5,5 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "ipywidgets>=8.1.5",
+    "langfuse>=2.59.5",
+    "notebook>=7.3.2",
+    "openinference-instrumentation-smolagents>=0.1.6",
+    "opentelemetry-api>=1.30.0",
+    "opentelemetry-exporter-otlp>=1.30.0",
+    "opentelemetry-sdk>=1.30.0",
+    "smolagents>=1.9.2",
     "uvicorn>=0.34.0",
 ]
